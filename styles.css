@@ -1,0 +1,143 @@
+body {
+  background-color: rgb(194, 233, 255);
+  font-family: "Gudea", sans-serif;
+  font-weight: 900;
+}
+h1 {
+  font-family: "Anton", sans-serif;
+  font-size: 80px;
+  text-align: center;
+  color: lightskyblue;
+}
+ul {
+  justify-items: center;
+  font-family: "Gudea", sans-serif;
+}
+li {
+  text-align: left;
+  list-style-position: inside;
+}
+.timer {
+  position: fixed;
+  left: 43%;
+  top: 54%;
+  font-family: "Gudea", sans-serif;
+  color: lightskyblue;
+}
+.lesstime {
+  color: red;
+}
+.correct {
+  background-color: rgb(166, 255, 166);
+  border: 2px solid;
+  border-color: rgb(0, 229, 0);
+}
+.incorrect {
+  background-color: rgb(255, 148, 148);
+  border: 2px solid;
+  border-color: rgb(219, 0, 0);
+}
+.line {
+  width: 600px;
+  height: 1px;
+  background-color: lightblue;
+  position: absolute;
+  left: 450px;
+  top: 170px;
+}
+.container {
+  background-color: white;
+  position: absolute;
+  color: gray;
+  left: 23%;
+  top: 40%;
+  width: 800px;
+  height: 310px;
+  border: solid 2px lightskyblue;
+  border-radius: 10px;
+  font-family: "Gudea", sans-serif;
+  font-size: 20px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.question,
+p {
+  text-align: center;
+  font-size: 25px;
+  color: black;
+  padding: 5px 10px;
+  position: relative;
+  top: 10px;
+}
+button {
+  color: rgb(0, 0, 0);
+  background-color: white;
+  width: 200px;
+  padding: 8px 8px;
+  border-radius: 5px;
+  font-size: large;
+  font-family: "Gudea", sans-serif;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+button:hover {
+  cursor: pointer;
+}
+.start-btn {
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 30px;
+  left: 300px;
+}
+#q1 {
+  position: relative;
+  left: 30px;
+  top: 60px;
+  width: 370px;
+}
+#q2 {
+  position: relative;
+  left: 40px;
+  top: 60px;
+  width: 370px;
+}
+#q3 {
+  position: relative;
+  left: 30px;
+  top: 80px;
+  width: 370px;
+}
+#q4 {
+  position: relative;
+  left: 40px;
+  top: 80px;
+  width: 370px;
+}
+.nxt-btn {
+  background-color: darkturquoise;
+  position: relative;
+  top: 90px;
+  left: 280px;
+}
+.retake {
+  position: absolute;
+  top: 200px;
+  left: 300px;
+}
+.intro {
+  position: fixed;
+  left: 80%;
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.intro a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.intro a:hover {
+  text-decoration: underline;
+}
