@@ -1,14 +1,19 @@
 # Quiz App
 
-This is a simple quiz application built using HTML, CSS, and JavaScript.
+This is the code for a quiz app that allows users to test their knowledge by answering multiple-choice questions. The app is built using HTML, CSS, and JavaScript. It provides an interactive and engaging user interface where users can select their answers and receive instant feedback on their performance.
 
 ## Features
 
-- Multiple-choice questions with options
-- Random selection of questions
-- Score tracking
-- Instant feedback on correct or incorrect answers
-- Display of final score at the end of the quiz
+-Multiple-choice questions: The app presents users with multiple-choice questions, allowing them to select one option from the provided choices.
+-Randomized questions: The questions are randomized each time the quiz is taken, providing a different order of questions to enhance the user experience.
+-Immediate feedback: After selecting an answer, users receive immediate feedback on whether their answer was correct or incorrect.
+-Score tracking: The app keeps track of the user's score, displaying the total number of correct answers at the end of the quiz.
+-Restart option: Once the quiz is completed, users have the option to restart and take the quiz again.
+
+##File Structure
+-index.html: The main HTML file that contains the structure of the quiz app user interface.
+-css/style.css: The CSS file that styles the app's user interface.
+-js/script.js: The JavaScript file that implements the logic and functionality of the quiz app.
 
 ## Usage
 
